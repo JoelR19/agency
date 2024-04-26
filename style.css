@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(206, 236, 202);
+
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-around;
+    margin-top: 5px;        
+    gap: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    font-weight: bold;
+}
+.derecha-header{
+    display: flex;
+    gap: 40px;
+}
+.desin{
+    margin-left: 76px;
+    margin-right: 600px;
+}
+.Login{
+    box-shadow: 0 0 0 1px rgb(94, 184, 14);
+    border-radius: 5px;
+    height: 20px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+.Register{
+    color: aliceblue;
+    border-radius: 5px;
+    background-color: rgb(94, 184, 80);
+    height: 20px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    gap: 30px;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.izquierda-section{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 280px;
+    margin-left: 113px;
+    margin-top: 110px;
+    gap: 20px;
+}
+
+.letra-grande{
+    font-size: 60px;
+}
+
+.boton{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(94, 184, 80);
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+}
+span{
+    color: chocolate;
+}
+section{
+    display: flex;
+    gap: 200px;
+    padding-bottom: 28px;
+    margin-top: 45px;
+}
+.mujer{
+    margin-top: 30px;
+    position: absolute;
+    width: 530.28px;
+    height: 446.49px;  
+    top: 136.4px;
+    left: 777.16px;
+}
+.cuadrados{
+    position: absolute;
+    width: 436.33px;
+    height: 359.89px;
+    top: 152.45px;
+    left: 763.40px;
+}
+footer{
+    background-color: aliceblue;
+    height: 65px;
+    margin-top: 65px;
+    padding-top: 30px;
+    padding-left: 70px;
+}
